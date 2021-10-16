@@ -1,0 +1,26 @@
+#myButton {
+    background-color: aquamarine;
+    margin-right: 20px;
+}
+
+#secondButton {
+    background-color: firebrick;
+}
+
+.btn-class {
+    width: 200px;
+    height: 50px;
+    border-width: 0;
+    cursor: pointer;
+    padding: 5px 5px 5px 5px;
+}
+
+.prv-text {
+    margin: 50px;
+    padding: 20px;
+    border: 1px solid slateblue;
+}
+
+#capital {
+    font-size:x-large;
+}
