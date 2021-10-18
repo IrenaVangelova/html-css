@@ -1,0 +1,72 @@
+body{
+    background-image: url("treta.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.paragraphs {
+    display: inline-block;
+    position: relative;
+}
+
+.align-left {
+    left: 100px;
+}
+
+.align-right {
+    right: 100px;
+}
+
+.container {
+    height: 200px;
+    width: 300px;
+    overflow: auto;
+}
+
+.container > .fixed-menu {
+    position: fixed;
+    opacity: 0.5;
+}
+
+.link {
+    text-decoration: none;
+    color: darkblue;
+    font-weight: bold;
+    padding: 2px;
+    border: 1px solid darkcyan;
+    border-radius: 3px;
+    background-color: white;
+    box-shadow: 1px 5px 5px turquoise;
+}
+
+.link:hover {
+    background-color: tomato;
+    color: black;
+}
+
+.link::before {
+
+}
+
+.link::after {
+    content: "Go back home";
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
