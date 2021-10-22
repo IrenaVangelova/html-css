@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  flex-direction: row;
+  background: #009385;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  align-items: center;
+  font-family: "Rubik";
+  color: whitesmoke;
+}
+
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.header-password {
+  display: flex;
+  margin-right: 20px;
+  font-size: 15px;
+}
+
+.menu-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100px;
+  margin-left: 20px;
+  font-size: 25px;
+}
+
+.menu-content > a > img {
+  padding-top: 5px;
+}
+
+.menu-content > a {
+  padding-left: 10px;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  padding-top: 80px;
+  font-family: "Rubik";
+}
+
+.profile-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: 12px;
+  margin-top: 30px;
+}
+
+.profile-img > img {
+  margin: auto;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.profile-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 350px;
+  border-top: 2px solid rgb(182, 182, 182);
+}
+
+.left-panel {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  margin-top: 10px;
+}
+
+.left-panel > p {
+  margin-block-start: 7px;
+}
+
+.right-panel {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  margin-top: 10px;
+}
+
+.right-panel > p {
+  margin-block-start: 7px;
+}
+
+
