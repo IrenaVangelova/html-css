@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 40px;
+    padding: 10px;
+    font-family: "Rubik";
+  }
+  
+  .grid-container > div {
+    font-size: 20px;
+  }
+  
+  .profile-img > img {
+    margin: auto;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+  }
+
+  .profile-img > a {
+    text-decoration: none;
+    color: grey; 
+    font-size: 18px; 
+    margin-top: 0; 
+    margin-bottom: 0;
+  }
+
+  .msg-btn {
+    border: 0;
+    height: 30px;
+    font-family: "Rubik";
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.msg-btn:hover {
+  background-color: #dedede;
+}
+
+.follow-btn {
+    border: 0;
+    height: 30px;
+    background-color:#3084F2;
+    color: white;
+    font-family: "Rubik";
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.follow-btn:hover {
+  background-color: #32a6db;
+}
+
+.grid-item > button {
+    border: 0px;
+    background-color: #F2F3F5;
+}
+
+.grid-item > button > a {
+    text-decoration: none;
+    color: black;
+}
+
+@media only screen and (max-width: 768px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto ;
+        grid-gap: 40px;
+        padding: 10px;
+        font-family: "Rubik";
+    }
+
+    .grid-container > div {
+        text-align: center;
+    }
+
+    .content {
+        display: none;
+    }
+}
+
+
+
