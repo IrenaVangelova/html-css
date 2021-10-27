@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
+.content {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    width: 680px;
+    font-family: "Rubik";
+  }
+  
+  .profile-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+  }
+  
+  .profile-img > img {
+    margin: auto;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+  }
+  
+  .profile-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-right: 80px;
+  }
+
+  .description-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-right: 80px;
+  }
+
+  .description-content-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    width: 231px;
+  }
+
+  .profile-img > a {
+    text-decoration: none;
+    color: grey; 
+    font-size: 18px; 
+    margin-top: 0; 
+    margin-bottom: 0;
+  }
+
+  .profile-content > p > a {
+      text-decoration: none;
+      color: blue;
+  }
+
+  .description-info {
+      display: flex;
+      flex-direction: column;
+      margin-left: 60px;
+      
+  }
+
+  .profile-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+    width: 260px;
+  }
+
+  .profile-links-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+    width: 260px;
+  }
+
+  .profile-links > button {
+      border: 0px;
+      background-color: #F2F3F5;
+  }
+
+  .profile-links > button > a {
+      text-decoration: none;
+      color: black;
+  }  
+
+  .btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin-left: 10px;
+    
+  }
+
+  .msg-btn {
+      border: 0;
+      height: 30px;
+      font-family: "Rubik";
+      border-radius: 5px;
+      cursor: pointer;
+  }
+
+  .msg-btn:hover {
+    background-color: #dedede;
+  }
+
+  .follow-btn {
+      border: 0;
+      height: 30px;
+      background-color:#3084F2;
+      color: white;
+      font-family: "Rubik";
+      border-radius: 5px;
+      cursor: pointer;
+      
+  }
+
+  .follow-btn:hover {
+    background-color: #32a6db;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .profile-info {
+        margin-left: auto;
+        margin-right: auto;
+        width: 400px;
+        padding-top: 50px;
+        border: 3px solid #3084F2;
+    }
+
+    .description-info {
+        display: none;
+    }
+
+   .btn {
+       margin-left: 0;
+       margin-right: 0;
+       margin-top: 20px;
+   }
+
+   a {
+       text-decoration: none;
+   }
+
+   .profile-links-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 240px;
+   }
+
+   .profile-links-1 > button {
+        border: 0px;
+   }
+
+   .profile-links-1 > button > a {
+       color: black;
+   }
+   
+  }
+
+  @media only screen and (min-width: 768px) { 
+      .profile-links-1 {
+        display: none;
+      }
+
+      .description-content-1 {
+          display: none;
+      }
+
+      a {
+          text-decoration: none;
+      }
+
+  }
