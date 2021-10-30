@@ -1,8 +1,8 @@
 body {
     background-color: #f0f5f5;
+    margin: 0;
+    padding: 0;
 }
-
-
 
 .container {
     display: flex;
@@ -11,15 +11,27 @@ body {
 }
 
 .content {
-    width: 80%;
+    width: 85%;
+    margin-left: 10px;
 }
 
 .menu {
-    width: 20%;
+    width: 15%;
+    background-color: #1d3477;
+    color: white;
 }
 
 .nav-list > li {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+.nav-list > li:hover {
+    background-color: #2947a0;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 30px;
+    border:1px solid white;
 }
 
 .lists {
@@ -46,4 +58,83 @@ img {
 .checkbox-line {
     align-items: center;
     margin: 50px;
+}
+
+.newtask-btn {
+    background-color: lightblue;
+    border: 0;
+    border-radius: 4px;
+    height: 35px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.noname-btn {
+    background-color: grey;
+    border: 0;
+    border-radius: 2px;
+    height: 35px;
+    width: 36px;
+    cursor: pointer;
+}
+
+.noname-btn-2 {
+    background-color: grey;
+    border: 0;
+    height: 35px;
+    width: 36px;
+    margin-left: -9px;
+    border-left: 1px solid black;
+    cursor: pointer;
+}
+
+.noname-btn-3 {
+    background-color: grey;
+    border: 0;
+    border-radius: 2px;
+    height: 35px;
+    width: 36px;
+    margin-left: -9px;
+    border-left: 1px solid black;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+.inprogress-btn {
+    border: 0;
+    border-radius: 5px;
+    background-color: orange;
+    padding: 4px;
+    width: 90px;
+}
+
+.done-btn {
+    border: 0;
+    border-radius: 5px;
+    background-color: green;
+    padding: 4px;
+    width: 60px;
+}
+
+.waiting-btn {
+    border: 0;
+    border-radius: 5px;
+    background-color: purple;
+    padding: 4px;
+    width: 70px;
+}
+
+.waiting-btn > a {
+    color: white;
+}
+
+.done-btn > a {
+    color: white;
+}
+
+.inprogress-btn > a {
+    color: white;
 }
