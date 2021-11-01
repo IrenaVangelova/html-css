@@ -1,0 +1,193 @@
+.kursevi {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#navigacija {
+    width: 20%;
+    margin-left: 10px;
+}
+
+.kursevi > div {
+    padding: 10px;
+    margin: 10px;   
+    border: 1px solid grey;
+    max-width: 31%; 
+}
+
+.diagram {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: 150px;
+
+}
+
+.graph {
+    width: 50%;
+    background-color: cornflowerblue;
+}
+
+.matematika {
+    height: 280px;
+    
+}
+
+.fizika {
+    height: 300px;
+}
+
+.programiranje {
+    height: 200px;
+}
+
+.dizajn {
+    height: 250px;
+}
+
+.elektronika {
+    height: 100px;
+}
+
+.energetika {
+    height: 150px;
+}
+
+.kategorija {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.naslov {
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer-content {
+    position: fixed;
+    min-height: 150px;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    background-color: lightgrey;
+    color: grey;
+    font-size: smaller;
+    padding: 20px 0 20px 0;
+}
+
+.footer-list {
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-left: 1px solid grey;
+}
+
+ul {
+    list-style: none;
+}
+
+
+.courses-content {
+    /* width: 33%; */
+    opacity: 1;
+    transition: 100ms;
+    height: 350px;
+}
+
+.courses-content:hover {
+    border: 1px solid grey;
+    box-shadow: 10px 10px 20px black;
+}
+
+.courses-content > img {
+    width: 100%;
+    height: 50%;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.paragraph-text {
+    font-size: smaller;
+    color: gray;
+    padding-top: 10px;
+}
+
+.animation-1 {
+    animation-name: fadein;
+    animation-duration: 1000ms;
+}
+
+.animation-2 {
+    animation-name: fadein;
+    animation-duration: 2000ms;
+}
+
+.animation-3 {
+    animation-name: fadein;
+    animation-duration: 3000ms;
+}
+
+.animation-4 {
+    animation-name: fadein;
+    animation-duration: 4000ms;
+}
+
+.animation-5 {
+    animation-name: fadein;
+    animation-duration: 5000ms;
+}
+
+.animation-6 {
+    animation-name: fadein;
+    animation-duration: 6000ms;
+}
+
+@keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@media only screen and (max-width: 768px) {
+    #navigacija {
+        display: none;
+    }
+
+    .kursevi {
+        width: 100%;
+    }
+
+    .paragraph-text {
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .kursevi > div {
+        min-width: 50%;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    .kursevi > div {
+        min-width: 100%;
+    }
+
+}
