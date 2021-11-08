@@ -8,7 +8,7 @@
   background-color: #b2dae6;
 }
 
-form {
+.form {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -19,19 +19,19 @@ form {
   border: 1px solid lightgray;
 }
 
-form > * {
+.form > * {
   width: 100%;
   margin-bottom: 15px;
   color: #031240;
 }
 
-form input {
+.form input {
   padding: 5px;
   border-radius: 5px;
   border: 1px solid lightgray;
 }
 
-form input:focus-visible {
+.form input:focus-visible {
   outline: 1px solid lightgray;
 }
 
@@ -51,7 +51,7 @@ hr {
   width: 49%;
 }
 
-form label {
+.form label {
   font-size: 0.75rem;
   margin-top: -0.25rem;
 }
